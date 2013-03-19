@@ -27,20 +27,23 @@
 
 <p>ebFRET is a library written in Matlab for the analysis of single-molecule FRET time series with hidden Markov models. </p>
 
-<p>It is the successor of <a href="vbfret.sourceforge.net">vbFRET</a>, which it improves upon by performing combined analysis of multiple time series at once. This approach, known as <em>empirical Bayes</em>, is both more accurate and statistically robust. It also enables more advanced analysis use cases such as sub-population detection.</p>
-
-<h3>Read the Paper</h3>
-
-<p><em>Hierarchically-coupled hidden Markov models for learning kinetic rates from single-molecule data.</em>
-Jan-Willem van de Meent (<a href="https://github.com/jwvdm" class="user-mention">@jwvdm</a>), Jonathan Bronson, Frank Wood, Ruben Gonzalez, Chris Wiggins (<a href="https://github.com/chrishwiggins" class="user-mention">@chrishwiggins</a>)
-<a href="https://github.com/ebfret/paper">[pdf]</a></p>
+<p>It is the successor of <a href="http://vbfret.sourceforge.net">vbFRET</a>, which it improves upon by performing combined analysis of multiple time series at once. This approach, known as <em>empirical Bayes</em>, is both more accurate and statistically robust. It also enables more advanced analysis use cases such as sub-population detection.</p>
 
 <h3>Example Usage</h3>
 
-<pre><code>data = load_fret('my_data.dat')
+<pre><code>data = load_fret('my_data.dat');
 eb = eb_fret(data.fret, [2,3,4], 10);
 tracePlotter(data.fret, 'vit', eb.vit);
 </code></pre>
+
+<h3>Get the Source</h3>
+
+<p>We are currently working on a stand-alone GUI for usage in a lab environment. In the mean time, a command-line version of our code can be found here [<a href="https://github.com/jwvdm/ebfret">git</a>; <a href="https://github.com/jwvdm/ebfret/archive/master.zip">zip</a>]</p>
+
+<h3>Read the Paper</h3>
+
+<p><em>``Hierarchically-coupled hidden Markov models for learning kinetic rates from single-molecule data.''</em>
+Jan-Willem van de Meent (<a href="https://github.com/jwvdm" class="user-mention">@jwvdm</a>), Jonathan Bronson, Frank Wood, Ruben Gonzalez, Chris Wiggins. Accepted at <a href="http://icml.cc/2013/">ICML 2013</a> [<a href="https://github.com/ebfret/paper-icml/raw/master/vandemeent_icml_2013.pdf">pdf</a>]</p>
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
