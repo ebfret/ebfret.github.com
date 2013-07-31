@@ -23,7 +23,8 @@
 
       </header>
       <section>
-        <h3>Consensus analysis of many single-molecule FRET time series</h3>
+        <h3>
+<a name="consensus-analysis-of-many-single-molecule-fret-time-series" class="anchor" href="#consensus-analysis-of-many-single-molecule-fret-time-series"><span class="octicon octicon-link"></span></a>Consensus analysis of many single-molecule FRET time series</h3>
 
 <p>ebFRET is a library written in Matlab for the analysis of single-molecule FRET time series with hidden Markov models. </p>
 
@@ -33,18 +34,13 @@
 
 <p><img src="https://raw.github.com/ebfret/paper-icml/master/figures/fig_accuracy_vs_noise_v2_500dpi.png" alt="Inference Accuracy"></p>
 
-<h3>Example Usage</h3>
+<h3>
+<a name="get-the-source" class="anchor" href="#get-the-source"><span class="octicon octicon-link"></span></a>Get the Source</h3>
 
-<pre><code>data = load_fret('my_data.dat');
-eb = eb_fret(data.fret, [2,3,4], 10);
-tracePlotter(data.fret, 'vit', eb(3).vit);
-</code></pre>
+<p>The ebFRET source code (with graphical user interface) can be downloaded here [<a href="https://github.com/ebfret/ebfret-gui">git</a>; <a href="https://github.com/ebfret/ebfret-gui/archive/master.zip">zip</a>]. Please see README for installation instructions. The legacy command-line version of ebFRET is still available as well [<a href="https://github.com/ebfret/ebfret-legacy">git</a>; <a href="https://github.com/ebfret/ebfret-legacy/archive/master.zip">zip</a>].</p>
 
-<h3>Get the Source</h3>
-
-<p>We are currently working on a stand-alone GUI for usage in a lab environment. In the mean time, a command-line version of our code can be found here [<a href="https://github.com/jwvdm/ebfret">git</a>; <a href="https://github.com/jwvdm/ebfret/archive/master.zip">zip</a>]</p>
-
-<h3>Read the Paper</h3>
+<h3>
+<a name="read-the-paper" class="anchor" href="#read-the-paper"><span class="octicon octicon-link"></span></a>Read the Paper</h3>
 
 <p><em>``Hierarchically-coupled hidden Markov models for learning kinetic rates from single-molecule data.''</em>
 Jan-Willem van de Meent (<a href="https://github.com/jwvdm" class="user-mention">@jwvdm</a>), Jonathan Bronson, Frank Wood, Ruben Gonzalez, Chris Wiggins. Accepted at <a href="http://icml.cc/2013/">ICML 2013</a> [<a href="https://github.com/ebfret/paper-icml/raw/master/vandemeent_icml_2013.pdf">pdf</a>]</p>
