@@ -1,0 +1,8 @@
+title: ebFRET
+description: "ebFRET performs combined analysis on multiple single-molecule FRET time series to learn a set of rates and states "
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
