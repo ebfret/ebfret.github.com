@@ -12,7 +12,7 @@ The ebFRET source code (with graphical user interface) can be downloaded here [[
 
 A command-line version of the code is also available for advanced analysis tasks, such as detection of subpopulations, which cannot be directly accomplished in the GUI [[git](https://github.com/ebfret/ebfret-script); [zip](https://github.com/ebfret/ebfret-script/archive/master.zip)].
 
-Code to plot transition density plots (TDP) as per "Observation and Analysis of RAD51 Nucleation Dynamics at Single-Monomer Resolution" in Methods in Enzymology by Subramanyam et al. can be found [here](https://github.com/ebfret/TransitionDensityPlots).
+Code to plot transition density plots (TDP) as per "Observation and Analysis of RAD51 Nucleation Dynamics at Single-Monomer Resolution" in Methods in Enzymology by Subramanyam et al. can be found here: [[git](https://github.com/ebfret/TransitionDensityPlots)].
 
 ## Papers
 
